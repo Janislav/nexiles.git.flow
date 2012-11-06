@@ -44,7 +44,7 @@ to understand the following tutorial.......
 
 
 
-.. image:: git-workflow.png
+.. image:: pics/git-workflow.png
 
 
 
