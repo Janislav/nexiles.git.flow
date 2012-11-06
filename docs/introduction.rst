@@ -44,8 +44,6 @@ to understand the following tutorial.......
 
 
 
-
-
 .. image:: git-workflow.png
 
 
