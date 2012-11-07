@@ -11,17 +11,17 @@ How to use Git Flow
 Abstract
 ========
 
-In the following tutorial i want to show you how you can use git flow......
+In the following tutorial, i want to show you how you can use git flow......
 I will use a example project, which shows the commands of git flow and what
 it is able to do. Moreover you should get a felling for it..... have fun ;) 
 
-Wtf is git flow?
+What is git flow?
 ================
 
 Git flow is a command line tool, which support the programmer to use a certain 
 git workflow. What is meaning by "certain workflow"? In this documentation http://nvie.com/posts/a-successful-git-branching-model/ 
-you find all information you need. Git flow is nothing more like a way to write less and make more with git...... 
-To install git-flow, follow the steps in this documentation https://github.com/nvie/gitflow/wiki/Installation
+you find all information you need. Git flow is nothing more like a way to write less and do more with git...... 
+To install git flow, follow the steps in this documentation https://github.com/nvie/gitflow/wiki/Installation
 
 
 Let's go
@@ -80,9 +80,9 @@ Hold on!
 
 Git flow ask you if you want a version tag prefix 
 So what is this?
-You can give a project somthing like a "stamp", so every release gets this as default name...
+You can give a project a tag name, so every release gets this as default name...
 For E.X we take as tag "day-of-releas" and give to every release the current date as branch name, we get
-automaticly the stamp "day-of-release-06112012".
+automaticly the tag "day-of-release-06112012".
 For our project we take "nx-release" :: 
 
 
@@ -90,8 +90,6 @@ For our project we take "nx-release" ::
 
 
 Cool stuff...... you're done ;) let's start with our project...... 
-
-
 
 
 Starting to use Git flow 
@@ -134,7 +132,7 @@ branch and creat a index.html ... copie the following code ::
 
 
 
-Ok.... add and commit your changes than type::
+Ok.... add and commit your changes, than type::
 
 
 
@@ -158,7 +156,7 @@ So.... now we want to make the first release..... no problem, type::
 	$ git flow release
 
 
-No we get the information that we have currently know releases.... So let's create one.
+No we get the information that we have currently no  releases.... So let's create one.
 To do this just type:: 
 
 
@@ -212,7 +210,7 @@ Cool ;)
 
 Sooo... beacuse we're so diligently developer we want to add a cool js function to our next release, so you just 
 have to do the same like before. Make a new branch and add a js hello world function to index.html and finisch the feature-branch
-afterwords. So now we've a new feature in our develop branch. 
+afterwards. So now we've a new feature in our develop branch. 
 
 
 
@@ -220,8 +218,8 @@ Hotfix Branches
 ---------------
 
 
-Now we have a problem! The customer calls us and say that his version of the hello word site is brick!
-We forgott to close the head tag and now the site is just empty..... damm! 
+Now we have a problem! The customer calls us and say that his version of the hello world site is brick!
+We forgot to close the head tag and now the site is just empty..... damn! 
 
 
 
@@ -247,6 +245,7 @@ Open the file and fix this, afterwards type::
 
 So what happend?
 Git flow merged head-bug to master and develop, and deleted head-bug afterwards.
+
 Cool Stuff......
  
 
@@ -258,7 +257,7 @@ OK, what we learned out of this? We should make a bugfix before we throw the rel
 But the customer is a nice guy and he is not resent.... He want to have a style feature which should show his
 hello world headline red and he also is intresting in our javascript stuff... great ;)
 
-Let's make new feature branch for the css suff..... Now you know how you have to do this ;) 
+Let's make new feature branch for the css stuff..... Now you know how you have to do this ;) 
 Add this to your index.html::
 
 
@@ -291,7 +290,10 @@ hotfix or major release. Moreover i have to note, that this is still a very expe
 
 
 
-Our hello world page is now in version 1.5 and we have a amount of customers.... Great ;) 
+Our hello world page is now in version 1.5 and we have a amount of customers.... 
+
+Great ;)
+
 But one customer from the beginning didn't want to upgrade since version 1.0 .... so what should we do? We created a support branch
 just for him, because we're so friendliy ;) 
 
@@ -306,8 +308,8 @@ Keep the syntax in mind ::
 
 	git flow support start [supportName] [tagName]
 
-Now we have a support version for 1.0 and the customer is happy ;) 
 
+Now we have a support version for 1.0 and the customer is happy ;) 
 
 
 
@@ -324,7 +326,6 @@ For notes, supplements or improvments write at jan.boerner@nexiles.com.
 
 
 Bye bye.......
-
 
 
 

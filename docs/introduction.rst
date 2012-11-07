@@ -22,31 +22,27 @@ Substantiation
 
 - We want to use git flow, to  have in future a better structure
 of products and a better handling. 
+
 - If we would use git flow we could work much more efficiently
+
 - With git flow life get's much easier 
+
 - Git is cool... but with git flow it's much cooler ;) 
-
-
-
-
-
 
 
 
 We do it like this.....
 =======================
 
-This pic shows how the workflow which we want to use in the future
-works. Remember this to understand the useing of git flow.
-If you're a git newcommer, pleas chek this documentation first 
+This pic shows how the workflow, which we want to use in future. 
+Remember this to understand git flow.
+If you're a git newcommer, pleas check this documentation first 
 http://nvie.com/posts/a-successful-git-branching-model/ 
 to understand the following tutorial....... 
 
 
 
 .. image:: pics/git-workflow.png
-
-
 
 
 
