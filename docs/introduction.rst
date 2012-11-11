@@ -13,7 +13,7 @@ Problem
 
 Currently we don't have the best way to use git.
 Moreover we don't have a absolute fix structure
-in git repositorys....
+in git repositorys.
 
 
 
@@ -34,11 +34,13 @@ of products and a better handling.
 We do it like this.....
 =======================
 
-This pic shows how the workflow, which we want to use in future. 
+This pic shows the workflow, which we want to use in future. 
 Remember this to understand git flow.
+
 If you're a git newcommer, pleas check this documentation first 
-http://nvie.com/posts/a-successful-git-branching-model/ 
-to understand the following tutorial....... 
+http://nvie.com/posts/a-successful-git-branching-model/
+ 
+to understand the following tutorial.
 
 
 
