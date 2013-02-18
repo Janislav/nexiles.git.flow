@@ -13,15 +13,14 @@ Problem
 
 Currently we don't have the best way to use git.
 Moreover we don't have a absolute fix structure
-in git repositorys.
+in git repositories.
 
 
 
 Substantiation
 ==============
 
-- We want to use git flow, to  have in future a better structure
-of products and a better handling. 
+- We want to use git flow, to  have in future a better structure of products and a better handling. 
 
 - If we would use git flow we could work much more efficiently
 
@@ -31,15 +30,14 @@ of products and a better handling.
 
 
 
-We do it like this.....
-=======================
+We do it so!
+============
 
-This pic shows the workflow, which we want to use in future. 
+This picture shows the work flow, which we want to use in future. 
 Remember this to understand git flow.
-
-If you're a git newcommer, pleas check this documentation first 
+If you're a git newcomer, pleas check this documentation first 
 http://nvie.com/posts/a-successful-git-branching-model/
- 
+
 to understand the following tutorial.
 
 
@@ -49,6 +47,7 @@ to understand the following tutorial.
 
 
 src:http://nvie.com/posts/a-successful-git-branching-model/
+
 
 
 
